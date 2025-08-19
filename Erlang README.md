@@ -15,6 +15,14 @@ This Erlang application implements a **Natural Language Processing Web Server** 
 
 [Software Demo Video](http://youtube.link.goes.here)
 
+## Usage Instructions:
+
+Compile: c(nlp_web_app).
+Run Demo: nlp_web_app:demo().
+Start Server: nlp_web_app:start_server().
+Process Text: nlp_web_app:process_text("Your text here").
+Stop Server: nlp_web_app:stop_server().
+
 ### Basic Requirements (All Implemented)
 
 1. **Display output using format**: 
